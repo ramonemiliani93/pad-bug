@@ -50,7 +50,5 @@ int main(int argc, char * argv[]) {
     auto padded = filter->GetOutput();
     ioOutputImage.Set(padded);
 
-    std::cout << "Hello" << std::endl;
-
     return EXIT_SUCCESS;
 }
